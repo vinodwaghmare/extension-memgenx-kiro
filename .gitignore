@@ -1,0 +1,39 @@
+# Chrome Extension - Git Ignore
+
+# Secrets and Configuration
+config.js.local
+*.key
+*.pem
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Build artifacts (if using build process)
+dist/
+build/
+*.zip
+
+# Node modules (if using npm for development)
+node_modules/
+
+# Test files
+test/
+*.test.js

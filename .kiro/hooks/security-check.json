@@ -1,0 +1,11 @@
+{
+  "name": "Security Check",
+  "description": "Scans code for security vulnerabilities and hardcoded secrets",
+  "trigger": {
+    "type": "onSave",
+    "filePattern": "**/*.js"
+  },
+  "prompt": "Scan this JavaScript file for security issues:\n1. Hardcoded API keys, tokens, or secrets\n2. Use of eval() or new Function()\n3. Inline event handlers\n4. Unsafe DOM manipulation (innerHTML with user input)\n5. Missing input validation\n6. Insecure HTTP requests (should be HTTPS)\n7. Missing error handling in async functions\n8. Exposed sensitive data in console.log\n\nReport any security concerns and suggest fixes.",
+  "autoRun": false,
+  "showNotification": true
+}

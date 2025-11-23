@@ -1,0 +1,11 @@
+{
+  "name": "Validate Manifest",
+  "description": "Validates manifest.json for Manifest V3 compliance and required fields",
+  "trigger": {
+    "type": "onSave",
+    "filePattern": "manifest.json"
+  },
+  "prompt": "Check the manifest.json file for:\n1. Manifest V3 compliance (manifest_version: 3)\n2. Required fields: name, version, description\n3. Service worker (not background page)\n4. Proper permissions structure\n5. Valid content_scripts configuration\n6. Valid host_permissions\n7. Proper icons configuration\n8. Valid content_security_policy\n\nReport any issues found and suggest fixes.",
+  "autoRun": true,
+  "showNotification": true
+}

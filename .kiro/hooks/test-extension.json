@@ -1,0 +1,10 @@
+{
+  "name": "Test Extension",
+  "description": "Manual hook to run extension tests and validation",
+  "trigger": {
+    "type": "manual"
+  },
+  "prompt": "Run comprehensive tests on the Chrome extension:\n\n1. **Manifest Validation**\n   - Check Manifest V3 compliance\n   - Verify all required fields\n   - Validate permissions\n\n2. **Code Quality**\n   - Check for syntax errors\n   - Verify error handling\n   - Check for console.log statements\n\n3. **Security**\n   - Scan for hardcoded secrets\n   - Check OAuth implementation\n   - Verify CSP configuration\n\n4. **Functionality Checklist**\n   - Service worker imports correct files\n   - Message handlers return true for async\n   - Content scripts have proper selectors\n   - Auth flow is complete\n\n5. **Documentation**\n   - README is up to date\n   - Code comments are clear\n   - API contracts are documented\n\nProvide a summary report with any issues found.",
+  "autoRun": false,
+  "showNotification": true
+}
