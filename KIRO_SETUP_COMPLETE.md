@@ -1,6 +1,7 @@
 # ✅ Kiro Development Environment Setup Complete!
 
-## 🎉 Summary
+## 🎉 Summary 
+----------------
 
 Your Chrome extension now has a **complete Kiro development environment** that demonstrates comprehensive usage of all Kiro features for the Kiroween 2025 hackathon.
 
